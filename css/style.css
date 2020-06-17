@@ -1,0 +1,36 @@
+/*header*/
+.topbar{
+	background: #bb8800;
+	padding: 5px 0;
+	color: #ffffff;
+	font-size: 16px;
+}
+/*navigation menu control*/
+.my_menu{
+	margin-top: 15px;
+}
+.my_menu .navbar-default{
+	background: none;
+	border:none;
+}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{
+	background: #bb8800;
+	color: #ffffff;
+}
+.my_menu .navbar-nav li a:hover{
+	background: #bb8800;
+	color: #ffffff;
+}
+@media(max-width:1200px){	
+	.my_menu .pull-right{float:none !important;}
+}
+.carousel .item {
+  height: 480px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 480px;
+}
